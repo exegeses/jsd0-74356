@@ -17,6 +17,9 @@ body{
 h1{
     font-weight: 300;
 }
+a{
+    text-decoration: none;
+}
 
 #frase{
     font-size: 32px;
@@ -49,4 +52,14 @@ nav{
     margin: 8px 0px;
     background-color: hsl(300, 50%, 16%);
     border-radius: 8px;
+}
+
+#caja{
+    width: 216px;
+    height: 216px;
+    background-color: #b6b6b6;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    transition: 500ms; 
 }
