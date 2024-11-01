@@ -90,3 +90,23 @@ nav{
         background-color: hsl(300, 50%, 30%);
         box-shadow: 0px 0px 8px hsla(160, 52%, 76%, 50%);
     }  
+
+#contenedor{
+    width: 420px;
+    margin: 32px auto;
+    padding: 16px;
+    background-color: hsl(300, 50%, 16%);
+    border-radius: 16px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    #contenedor img{
+        cursor: pointer;
+        filter: invert();
+        transition: 500ms;
+    }
+    #contenedor img:hover{
+        scale: 1.25;
+    }
