@@ -110,3 +110,12 @@ nav{
     #contenedor img:hover{
         scale: 1.25;
     }
+
+#container{
+    width: 420px;
+    margin: 32px auto;
+    padding: 16px;
+    background-color: hsl(300, 50%, 16%);
+    border-radius: 16px;
+    font-size: 2em;
+}
